@@ -1,4 +1,4 @@
-From node:22.11.0-alpine
+FROM node:22.11.0-alpine
 COPY package*.json ./
 RUN npm install
 COPY . .
